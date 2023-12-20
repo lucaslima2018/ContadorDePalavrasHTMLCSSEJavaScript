@@ -1,1 +1,1 @@
-# Contador De Palavras Implementado em HTML, CSS e JavaScript
+# Contador de Palavras Implementado em HTML, CSS e JavaScript.
