@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Palavras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Contador de Palavras</h2>
+        <div class="input-field">
+            <textarea onkeyup="contarPalavra(this.value)" name="texto" id="texto"></textarea>
+        </div>
+        <div id="label-text">
+            <input type="text" id="quantidade" value="Total:" disabled/>
+        </div>       
+    </div>
+</body>
+</html>
